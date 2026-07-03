@@ -1,3 +1,20 @@
 h1{
+    color: rgb(51, 167, 249);
+}
+
+/*property: value*/
+#home-intro{
+    text-align: center;
+ /*   border: 3px;
+    border-style: solid;
+    border-color: black; */
+
+    border: 3px groove rgb(59, 35, 217);
+}
+#home-intro:hover{
+    background-color: rgb(237, 219, 100);
+}
+#p2{
     color: blueviolet;
 }
+
