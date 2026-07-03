@@ -8,13 +8,26 @@ h1{
  /*   border: 3px;
     border-style: solid;
     border-color: black; */
-
-    border: 3px groove rgb(59, 35, 217);
+    border: 3px groove rgb(51, 19, 230);
 }
 #home-intro:hover{
-    background-color: rgb(237, 219, 100);
+    background-color: rgb(252, 193, 145);
 }
 #p2{
     color: blueviolet;
 }
+#nav{
+    text-align: center;
+    background-color: rgb(135, 218, 135);    
+    height: 35px;
+    padding-top: 14px;
+    margin-bottom: 6px;
+}
 
+#nav a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0px 5px;
+/*margin: y-axis x-axis*/
+text-decoration: none;
+color: rgb(204, 10, 252);
+}
