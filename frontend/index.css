@@ -2,32 +2,64 @@ h1{
     color: rgb(51, 167, 249);
 }
 
-/*property: value*/
+/* property: value */
 #home-intro{
     text-align: center;
- /*   border: 3px;
-    border-style: solid;
-    border-color: black; */
     border: 3px groove rgb(51, 19, 230);
 }
+
 #home-intro:hover{
     background-color: rgb(252, 193, 145);
 }
+
 #p2{
     color: blueviolet;
 }
+
 #nav{
     text-align: center;
-    background-color: rgb(135, 218, 135);    
+    background-color: rgb(135, 218, 135);
     height: 35px;
     padding-top: 14px;
     margin-bottom: 6px;
 }
 
 #nav a{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-margin: 0px 5px;
-/*margin: y-axis x-axis*/
-text-decoration: none;
-color: rgb(204, 10, 252);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+                 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 5px;
+    text-decoration: none;
+    color: rgb(204, 10, 252);
+}
+
+#card{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card-img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+#card-name{
+    text-align: center;
+}
+
+#card-gender{
+    text-align: center;
+}
+
+#action{
+    text-align: center;
 }
