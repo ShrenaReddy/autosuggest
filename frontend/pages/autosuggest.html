@@ -5,22 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
       <link rel="stylesheet" href="autosuggest.css">
-      <style>
-        .left-bar{
-            position: fixed;
-            top: 20px;
-            left: 20px;
-        }
-        .right-bar{
-            position: fixed;
-            top: 20px;
-            right: 20px;
-        }
-        .search-section{
-            text-align: center;
-            margin-top: 100px;
-        }
-      </style>
 </head>
 <body>
 <div id = "navbar">
@@ -33,10 +17,21 @@
 </div>
 
 <div class="search-section">
-    <h1>Being Zero</h1>
+    <h1>
+       <span class="blue">Being </span>
+        <span class="red">Zero</span>
+    </h1>
     <p>One million phrases. Four algorithms. Prefix Based Auto Suggest.</p>
-    <span>&#128269;
-    <input placeholder="Start typing to search phrases"></span>
+    <span> 
+          <span class="lens"> &#128269; </span>
+          <input class="search-box" placeholder="Start typing to search phrases">
+        </span>
+
+    <div id="suggestion-box">
+Suggestions will appear here
+    </div>
+
+
 </div>
     
 </body>

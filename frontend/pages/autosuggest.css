@@ -1,7 +1,47 @@
 #head{
     text-align: center;
+    color: red;
 }
 
 #para{
     text-align: center;
+}
+.left-bar{
+            position: fixed;
+            top: 20px;
+            left: 20px;
+        }
+.right-bar{
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }
+.search-section{
+            text-align: center;
+            margin-top: 100px;
+        }
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+
+.lens{
+    position: relative;   
+    left: 40px; 
+
+}
+
+.search-box{
+    padding: 15px 15px 15px 45px;
+    width: auto;
+    border-radius: 25px;
+    width: 40%;
+}
+
+#suggestion-box{
+    border: 2px solid black;
+    width: 40%;
+    margin-left: 29%;
 }
